@@ -25,4 +25,4 @@ def send_email2(user, pwd, recipient, cc, subject, body):
 
 
 def send_email(to, cc, subject, body):
-    send_email2('vikrant@cse.iitb.ac.in', '041291985aA@', to, cc, subject, body)
+    send_email2('vikrant@cse.iitb.ac.in', 'password_for_vikrantcse_email', to, cc, subject, body)
